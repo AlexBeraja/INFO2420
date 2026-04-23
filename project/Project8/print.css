@@ -1,0 +1,33 @@
+/* PRINT STYLES */
+
+body {
+  margin: 0;
+  background: white;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Make layout full width for printing */
+header,
+section,
+article {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Hide navigation and footer when printing */
+nav,
+footer {
+  display: none;
+}
+
+/* Article should not be cramped */
+article {
+  width: 95%;
+}
+
+/* Images scale nicely */
+img {
+  max-width: 100%;
+}
